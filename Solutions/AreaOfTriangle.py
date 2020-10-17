@@ -5,5 +5,5 @@
 def tri_area(base, height):
 	return (base*height)/2
   
-base,height=[int(i) for i in input("Enter base and height: ").split()]
+base,height=[int(i) for i in input("Enter the base and height: ").split()]
 print(tri_area(base,height))
